@@ -4,10 +4,19 @@
 @tailwind utilities;
 
 body {
-  color: #121039;
+  color: #1f1e1e;
   font-size: 18px;
   font-family: 'Rubik', sans-serif;
   line-height: 28px;
-  background-color: rgb(15 23 42);
+  background-color: #e8e8e8;
   -webkit-font-smoothing: antialiased;
+}
+
+.color-primary {
+  color: #db9e44;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
